@@ -21,3 +21,5 @@ Sublime步骤
 10.如果上面的成功了，就可以在sublime text里面进行操作了
   git:quick commit 回车，输入提交的描述
   git:push current Branch
+  
+  add
