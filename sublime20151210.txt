@@ -12,9 +12,12 @@ Sublime步骤
 	  生成密钥，并将密钥添加到Github网站
 	  ssh-keygen -t rsa -C "username@email.com"
 9.git remote add origin git@github.com:benjamin-zuo/Arrow.git 把github网站和本地目录绑定起来
-  git add xxx 将本地文件缓存
-  git commit -m "注释" 提交文件
-  git push -u origin master 推送至github
+ git bash: 	git add xxx 将本地文件缓存
+  			git commit -m "注释" 提交文件
+  			git push -u origin master 推送至github
+  sublime : git:add     including untracked files
+  			git:commit   提交,会打开一个新的文件，输入提交的注释，关闭文件就会自动提交
+  			需要在git bash里面进行推送
 10.如果上面的成功了，就可以在sublime text里面进行操作了
   git:quick commit 回车，输入提交的描述
   git:push current Branch
